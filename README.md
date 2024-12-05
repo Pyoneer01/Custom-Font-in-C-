@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/d6daba11-3d80-457f-89af-2f47973ef3cf)
+
+
 # C++ Program Repository
 
 This repository contains a C++ program which converts the inputs to a custom large font. Use only alphabets, avoid using symbols. Follow the instructions below to clone the repository and run the program on your local machine.
@@ -14,9 +17,9 @@ Before running the program, ensure that the following prerequisites are met:
 
 ---
 
-## Cloning the Repository
+## Run the program
 
-To clone this repository to your local machine, run the following command:
+To execute the program on your local system, run the following commands:
 
 ```bash
 git clone https://github.com/Pyoneer01/Custom-Font-in-Cpp
