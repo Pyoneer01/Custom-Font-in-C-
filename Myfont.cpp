@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
+
 using namespace std;
 //width = 5
 //height = 5
@@ -52,7 +54,8 @@ int main() {
     string text;
     cout<<"Enter text: ";
     getline(cin,text);
-    cout<<"\n"<<text<<" in big font is\n\n";
+    transform(text.begin(), text.end(), text.begin(), ::toupper);
+    cout<<"\n   "<<text<<" in big font is\n\n";
     stroke big_fonts[text.length()];
     for(int i = 0;i<text.length();i++){
         l = text[i];
@@ -161,6 +164,7 @@ int main() {
         big_fonts[i] = f;
     }
     for(i = 0; i<5; i++){
+        cout<<"   ";
         for(stroke s : big_fonts){
             for(j = 0; j<5; j++)
                 cout<<s.star[i][j];
